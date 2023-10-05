@@ -1,0 +1,57 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg)
+    no-repeat center;
+  width: 100%;
+}
+
+.register_title {
+  font-size: 50px;
+}
+
+.register_form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register_form > label {
+  margin: 10px 0;
+}
+
+.register_form > input {
+  padding: 10px;
+  background: white;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.register_form > input:focus {
+  outline: none;
+}
+
+.register_button {
+  margin-top: 20px;
+  background: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.register_login_button {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: lightcoral;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
