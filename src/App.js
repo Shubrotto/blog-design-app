@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Topbar from "./components/topbar/Topbar";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
@@ -21,12 +21,6 @@ function App() {
         <Route path="/post/:postId" element={<Single />} />
         <Route path="/write" element={user ? <Write /> : <Register />} />
       </Routes>
-      {/* <Home /> */}
-      {/* <Single /> */}
-      {/* <Write /> */}
-      {/* <Settings /> */}
-      {/* <Login /> */}
-      {/* <Register /> */}
     </BrowserRouter>
   );
 }
